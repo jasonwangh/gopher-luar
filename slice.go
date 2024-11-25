@@ -3,7 +3,7 @@ package luar
 import (
 	"reflect"
 
-	"github.com/yuin/gopher-lua"
+	"lightserver/gopher-lua"
 )
 
 func sliceIndex(L *lua.LState) int {
